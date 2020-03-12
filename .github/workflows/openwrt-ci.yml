@@ -92,7 +92,7 @@ jobs:
           # CONFIG_TARGET_x86_64=y
           # CONFIG_TARGET_x86_64_Generic=y
           # EOF
-          # 编译K3的固件:
+          # 编译K2p的固件:
           cat >> .config <<EOF
           CONFIG_TARGET_mt7621=y
           CONFIG_TARGET_mt7621_DEVICE_phicomm-k2p=y
